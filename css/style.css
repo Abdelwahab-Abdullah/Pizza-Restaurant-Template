@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+body {
+    background-color: #000;
+}
+
+
+.main {
+    background-image: url(../images/pizza.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+.main header nav {
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.253);
+    position: sticky;
+    top: 0px;
+    z-index: 200;
+}
+header nav:hover {
+    background-color: black;
+} 
+header nav a {
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header nav a:hover {
+    background-color: rgb(177, 177, 177)
+}
+.main .main-sec h1 {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px ;
+    position: absolute;
+    bottom: 50%;
+    left: 35%;
+    
+}
+.main .main-sec h1 span {
+    display: block;
+    text-transform: capitalize;
+    line-height: 100px;
+
+}
+.main .main-sec a {
+    padding: 20px;
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    left: 42%;
+    bottom: 36%;
+   
+}
+.main .main-sec a:hover {
+    background-color: rgb(192, 187, 187);
+    color: #000;
+}
+.main .main-sec p {
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
+    width: fit-content;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+.sec-1 .menu {
+    width: 70%;
+    margin: auto;
+}
+.sec-1 .menu .header button {
+    width: 33%;
+    margin: 5px 0px;
+    height: 50px;
+    background-color: rgb(230, 12, 12);
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* margin: 5px 1px; */
+    outline: none;
+    border: 3px ridge #fff;
+    box-shadow: 2px 1px 1px #fff , 2px -1px 1px #fff ;
+}  
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 80px 0 ;
+    font-weight: 100;
+    font-size: 35px;
+}
+.sec-1 .menu .info {
+    background-color: #ffffff;
+    box-shadow: 2px 1px 1px #fff , -2px 1px 1px #fff , 2px -1px 1px #fff;
+}
+.sec-1 .menu .info div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-1 .menu .info div h3 {
+    color: #000;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.sec-1 .menu .info div p {
+    background-color: #4b4949;
+    color: #fff;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.sec-1 .menu .info p {
+    color: #a7a0a0;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+.sec-2 {
+    background-color: #9c7f81;
+    margin-top: 150px;
+}
+.sec-2 article {
+    font-size: 20px;
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+.sec-2 article p {
+    margin-bottom: 30px;
+    line-height: 35px;
+}
+.sec-2 article p img {
+    width: 100%;
+    margin-top: 30px;
+}
+.sec-2 article h3 {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.sec-2 article .div-1 {
+    display: flex;
+    margin-top: 50px;
+}
+.sec-2 article .div-2 {
+    padding-right: 30%;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+
+
+.sec-3 img {
+   filter: grayscale(50%);
+   width: 100%;
+}
+.sec-3 {
+    background-color: rgb(102, 114, 124);
+    width: 100%;
+}
+.sec-3 article {
+    width: 70%;
+    margin: auto;
+}
+.sec-3 p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.sec-3 form .div-1 input {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 5px;
+}
+.sec-3 form .div-2 input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    margin-bottom: 100px;
+    color: #000;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #000000;
+    margin-top: 30px;
+}
